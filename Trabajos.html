@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajos</title>
+    <link rel="preload" href="CSS/normalize.css" as="style">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="preload" href="CSS/style.css" as="style">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">John Doe - Fotógrafo Freelancer</h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacionPrincipal contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="Sobremi.html">Sobre mí</a>
+            <a href="Trabajos.html">Trabajos</a>
+        </nav>
+    </div>
+
+<main class="contenedor">
+    <section>
+        <div class="trabajos-layout trabajos-layout-invertido">
+            <div class="carrusel-contenedor">
+                <button class="carrusel-flecha carrusel-izq">&#10094;</button>
+                
+                <div class="carrusel-visor">
+                    <div class="carrusel-track" id="carrusel-track">
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto1.png" alt="Trabajo 1" class="carrusel-img">
+                        </div>
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto2.png" alt="Trabajo 2" class="carrusel-img">
+                        </div>
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto3.png" alt="Trabajo 3" class="carrusel-img">
+                        </div>
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto4.png" alt="Trabajo 4" class="carrusel-img">
+                        </div>
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto5.png" alt="Trabajo 5" class="carrusel-img">
+                        </div>
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto6.png" alt="Trabajo 6" class="carrusel-img">
+                        </div>
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto7.png" alt="Trabajo 7" class="carrusel-img">
+                        </div>
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto8.png" alt="Trabajo 8" class="carrusel-img">
+                        </div>
+                        <div class="carrusel-slide">
+                            <img src="img/Ejemplofoto9.png" alt="Trabajo 9" class="carrusel-img">
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carrusel-flecha carrusel-der">&#10095;</button>
+            </div>
+
+            <div class="trabajos-texto trabajos-texto-derecha">
+                <h2>Explora mi colección de fotografía profesional:</h2>
+                <div class="texto-ajustado trabajos-texto-contenedor">
+                    <p>A lo largo de mi carrera como fotógrafo freelancer, he tenido el privilegio de trabajar en una amplia variedad de proyectos que abarcan desde eventos sociales hasta sesiones de retrato y fotografía comercial. Cada proyecto ha sido una oportunidad para capturar momentos únicos y contar historias a través de mis imágenes.</p>
+                    <p>Mi enfoque se basa en la creatividad, la atención al detalle y la satisfacción del cliente. Me esfuerzo por entender las necesidades de cada proyecto y ofrecer resultados que superen las expectativas. Mi objetivo es crear imágenes que no solo sean visualmente atractivas, sino que también transmitan emociones y cuenten historias.</p>
+                    <p>Además de mi experiencia en fotografía, también tengo habilidades en edición de imágenes y video, lo que me permite ofrecer un servicio completo a mis clientes. Estoy siempre abierto a nuevos desafíos y oportunidades para seguir creciendo como fotógrafo y brindar un trabajo de alta calidad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="cerrar-btn">&times;</span>
+        
+        <span class="flecha flecha-izq">&#10094;</span>
+        
+        <img class="lightbox-contenido" id="img-ampliada">
+        
+        <span class="flecha flecha-der">&#10095;</span>
+    </div>
+
+    <script src="JS/carrusel.js"></script>
+    <script src="JS/galeria.js"></script>
+
+</main>
+    
+
+    <footer>
+        <p>Desarrollado por Martínez Mariana Priscila</p>
+    </footer>
+</body>
+</html>
+
